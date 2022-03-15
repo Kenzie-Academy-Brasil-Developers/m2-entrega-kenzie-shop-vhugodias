@@ -1,0 +1,39 @@
+i;i <= 25;arr.push(i);arr;i++
+-;-;-;[];-
+1;true;arr.push(1);[1];1++
+2;true;arr.push(2);[1,2];2++
+3;true;arr.push(3);[1,2,3];3++
+4;true;arr.push(4);[1,2,3,4];4++
+5;true;arr.push(5);[1,2,3,4,5];5++
+;;;;;;;;
+i;i >= 1;arr.push(i);arr;i--
+-;-;-;[];-
+25;true;arr.push(25);[25];25--
+24;true;arr.push(24);[25,24];24--
+23;true;arr.push(23);[25,24,23];23--
+22;true;arr.push(22);[25,24,23,22];22--
+21;true;arr.push(21);[25,24,23,22,21];21--
+;;;;;;;
+i;i >= -25;arr.push(i);arr;i--
+-;-;-;[];-
+-1;true;arr.push(-1);[-1];(-1)--
+-2;true;arr.push(-2);[-1,-2];(-2)--
+-3;true;arr.push(-3);[-1,-2,-3];(-3)--
+-4;true;arr.push(-4);[-1,-2,-3,-4];(-4)--
+-5;true;arr.push(-5);[-1,-2,-3,-4,-5];(-5)--
+;;;;;;;;
+i;i <= -1;arr.push(i);arr;i++
+-;-;-;[];-
+-25;true;arr.push(-25);[-25];(-25)++
+-24;true;arr.push(-24);[-25,-24];(-24)++
+-23;true;arr.push(-23);[-25,-24,-23];(-23)++
+-22;true;arr.push(-22);[-25,-24,-23,-22];(-22)++
+-21;true;arr.push(-21);[-25,-24,-23,-22,-21];(-21)++
+;;;;;;
+i;i >= -25;if(i % 2 != 0);arr.push(i);arr;i--
+-;-;-;-;[];-
+25;true;true;arr.push(25);[25];25
+24;true;false;-;[25];24--
+23;true;true;arr.push(23);[25,23];23--
+22;true;false;-;[25,23];22--
+21;true;true;arr.push(21);[25,23,21];21--
